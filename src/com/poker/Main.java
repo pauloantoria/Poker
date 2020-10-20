@@ -18,7 +18,7 @@ public class Main {
            try {
                var option = showMenu();
                if (option < 0 || option > 4) {
-                   throw new Exception("Selecciona un opcion valida:");
+                   throw new Exception("Selecciona un opción válida:");
                }
                switch (option) {
                    case 1:
@@ -48,7 +48,7 @@ public class Main {
     }
 
     public static int showMenu() {
-        System.out.println ("Bienvenido a tu poker favorito.");
+        System.out.println ("Bienvenido a tu póker favorito.");
         System.out.println ("Selecciona una de las opciones:");
         System.out.println ("1. Mezclar deck.");
         System.out.println ("2. Sacar carta.");
