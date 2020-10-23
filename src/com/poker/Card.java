@@ -1,18 +1,21 @@
 package com.poker;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class Card {
     private String palo;
     private String valor;
     private String color;
 
 
-    Card(String palo, String valor, String color) {
+    Card (String palo, String valor, String color) {
         this.palo = palo;
         this.valor = valor;
         this.color = color;
     }
 
-    Card(String palo, String color){
+    Card(String palo, String color, int i){
         this.palo = palo;
         this.color = color;
     }
